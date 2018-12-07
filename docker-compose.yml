@@ -1,0 +1,79 @@
+version: '3'
+services:
+  laravel_mysql:
+    #build: ./database
+    image: mysql:5.7
+    container_name: laravel-db-host
+    volumes:
+      - "./database/mysql-data:/var/lib/mysql:rw"
+      #- "./database/laravel_db.sql:/docker-entrypoint-initdb.d/dump.sql"     
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: laravel_db
+      MYSQL_USER: laravel_user
+      MYSQL_PASSWORD: laravel@1234
+      MYSQL_ROOT_PASSWORD: root@1234 
+    ports:
+      - "5506:3306"
+    restart: always
+    networks:
+      laravel-network:
+        aliases:
+          - laravel_db_host
+
+  #PHP Service
+  laravel_app:
+    build:
+      context: .
+      dockerfile: ./laravel-app/Dockerfile
+    container_name: laravel-app
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: laravel-app
+      SERVICE_TAGS: dev
+    working_dir: /var/www
+    volumes:
+      - "./laravel-app:/var/www:rw"
+      - ./laravel-app/php/local.ini:/usr/local/etc/php/conf.d/local.ini
+    networks:
+      laravel-network:
+        aliases:
+          - laravel_app
+
+  #Nginx Service
+  webserver:
+    image: nginx:alpine
+    container_name: laravel-webserver
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "5080:80"
+      - "5443:443"
+    volumes:
+      - "./laravel-app:/var/www"
+      - "./nginx/conf.d/app.conf:/etc/nginx/conf.d/app.conf"
+    networks:
+      laravel-network:
+        aliases:
+          - laravel_web
+
+  angular-app:
+    build: ./angular-app
+    container_name: angular-app
+    environment:
+      NODE_ENV: production
+    ports:
+      - "4200:80"
+      - "4243:443"
+    volumes:
+      - "./angular-app:/usr/src/app:rw"
+      - "./nginx/conf.d/angular-app.conf:/etc/nginx/conf.d/angular-app.conf"
+      - "./angular-app/dist:/usr/share/nginx/html:rw"
+    networks:
+      laravel-network:
+        aliases:
+          - angular_app
+
+networks:
+  laravel-network:
