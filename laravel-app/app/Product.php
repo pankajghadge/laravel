@@ -13,4 +13,12 @@ class Product extends Model
     protected $fillable = [
         'name', 'description', 'multiple_servers'
     ];
+
+    /**
+     * Get the product versions for the product.
+     */
+    public function product_versions()
+    {
+        return $this->hasMany('App\ProductVersion');
+    }
 }

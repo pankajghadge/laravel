@@ -41,9 +41,8 @@ class ProductController extends ResponseController
     {
        $input = $request->all();
 
-
        $validator = Validator::make($input, [
-           'name' => 'required',
+           'name' => 'required|unique:products,name',
            'description' => 'required'
        ]);
 
@@ -62,7 +61,7 @@ class ProductController extends ResponseController
      * @param  \App\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $id)
+    public function show($id)
     {
         $product = Product::find($id);
 
@@ -95,8 +94,10 @@ class ProductController extends ResponseController
     {
         $input = $request->all();
 
+	#return $this->sendResponse($input, 'Product updated successfully.');
+
         $validator = Validator::make($input, [
-            'name' => 'required',
+            'name' => 'required|unique:products,name,'. $product->id,
             'description' => 'required'
         ]);
 
