@@ -1,0 +1,1347 @@
+{
+	"version": 1,
+	"collections": [
+		{
+			"id": "1dd745bf-d3bd-23ee-82f5-cd90af885636",
+			"name": "register",
+			"description": "",
+			"order": [
+				"d76a812f-e9a6-2a3d-6bbd-8c3852df29a7"
+			],
+			"folders": [],
+			"folders_order": [],
+			"timestamp": 1544098302329,
+			"synced": false,
+			"remote_id": 0,
+			"owner": "5990721",
+			"sharedWithTeam": false,
+			"subscribed": false,
+			"remoteLink": "",
+			"remoteLinkUpdatedAt": null,
+			"public": false,
+			"createdAt": 1544098302329,
+			"updatedAt": 1544098305203,
+			"write": true,
+			"published": false,
+			"favorite": false,
+			"permissions": {},
+			"syncedPermissions": {},
+			"requests": [
+				{
+					"id": "d76a812f-e9a6-2a3d-6bbd-8c3852df29a7",
+					"headers": "",
+					"headerData": [],
+					"url": "http://192.168.99.100:5080/api/register",
+					"queryParams": [],
+					"pathVariables": {},
+					"pathVariableData": [],
+					"preRequestScript": null,
+					"method": "POST",
+					"collectionId": "1dd745bf-d3bd-23ee-82f5-cd90af885636",
+					"data": [
+						{
+							"key": "name",
+							"value": "Pankaj",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "email",
+							"value": "ghadge.pankaj@gmail.com",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "pankaj",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_id",
+							"value": "2",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_secret",
+							"value": "QZVUh0lF9A1nDD6Gc9ceojEZXR4lXonDvohwwItu",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "c_password",
+							"value": "pankaj",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"name": "Register",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1544098305115,
+					"version": 2,
+					"responses": [],
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				}
+			]
+		},
+		{
+			"id": "e3fc707f-9822-0c5f-1fed-8b613d1bd719",
+			"name": "Login",
+			"description": "",
+			"order": [
+				"c751ee3e-0b35-c65e-aa82-ef8e476cbf63"
+			],
+			"folders": [],
+			"folders_order": [],
+			"timestamp": 1544174747527,
+			"synced": false,
+			"remote_id": 0,
+			"owner": "5990721",
+			"sharedWithTeam": false,
+			"subscribed": false,
+			"remoteLink": "",
+			"remoteLinkUpdatedAt": null,
+			"public": false,
+			"createdAt": 1544174747527,
+			"updatedAt": 1544174751435,
+			"write": true,
+			"published": false,
+			"favorite": false,
+			"permissions": {},
+			"syncedPermissions": {},
+			"requests": [
+				{
+					"id": "c751ee3e-0b35-c65e-aa82-ef8e476cbf63",
+					"headers": "",
+					"headerData": [],
+					"url": "http://192.168.99.100:5080/oauth/token",
+					"queryParams": [],
+					"pathVariables": {},
+					"pathVariableData": [],
+					"preRequestScript": null,
+					"method": "POST",
+					"collectionId": "e3fc707f-9822-0c5f-1fed-8b613d1bd719",
+					"data": [
+						{
+							"key": "username",
+							"value": "ghadge.pankaj@gmail.com",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "password",
+							"value": "pankaj",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_id",
+							"value": "2",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_secret",
+							"value": "QZVUh0lF9A1nDD6Gc9ceojEZXR4lXonDvohwwItu",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"name": "Login",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1544174751384,
+					"version": 2,
+					"responses": [],
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				}
+			]
+		},
+		{
+			"id": "79896b5e-53f3-a41f-7baf-4d9854cc6cff",
+			"name": "Product",
+			"description": "",
+			"order": [
+				"76a04dfa-b1e9-2918-7129-c4855c113d06",
+				"bc19ae04-bdcb-e89b-0e6e-99aac70d48c2",
+				"92b181c1-a952-9d60-c807-2833fdbaa4b9",
+				"30f2dc6e-0c52-9240-dd6b-741d19b359eb"
+			],
+			"folders": [],
+			"folders_order": [],
+			"timestamp": 1544176297159,
+			"synced": false,
+			"remote_id": 0,
+			"owner": "5990721",
+			"sharedWithTeam": false,
+			"subscribed": false,
+			"remoteLink": "",
+			"remoteLinkUpdatedAt": null,
+			"public": false,
+			"createdAt": 1544176297159,
+			"updatedAt": "2018-12-18T10:04:19.165Z",
+			"write": true,
+			"published": false,
+			"favorite": false,
+			"permissions": {},
+			"syncedPermissions": {},
+			"requests": [
+				{
+					"id": "30f2dc6e-0c52-9240-dd6b-741d19b359eb",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/products/1",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "GET",
+					"data": [
+						{
+							"key": "name",
+							"value": "MySQL",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "description",
+							"value": "MySQL is an open source relational database management system.",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1545127490214,
+					"name": "Product Show",
+					"description": "",
+					"collectionId": "79896b5e-53f3-a41f-7baf-4d9854cc6cff",
+					"responses": []
+				},
+				{
+					"id": "76a04dfa-b1e9-2918-7129-c4855c113d06",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/products",
+					"queryParams": [],
+					"pathVariables": {},
+					"pathVariableData": [],
+					"preRequestScript": "",
+					"method": "GET",
+					"collectionId": "79896b5e-53f3-a41f-7baf-4d9854cc6cff",
+					"data": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"name": "Product All",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1544176318264,
+					"version": 2,
+					"responses": [],
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				},
+				{
+					"id": "92b181c1-a952-9d60-c807-2833fdbaa4b9",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/products/1?name=MySQL&description=MySQL is an open. source relational database management system.",
+					"queryParams": [
+						{
+							"key": "name",
+							"value": "MySQL",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "description",
+							"value": "MySQL is an open. source relational database management system.",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "PUT",
+					"data": [
+						{
+							"key": "name",
+							"value": "MySQL",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "description",
+							"value": "MySQL is an open source relational database management system.",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1545036559500,
+					"name": "Product Update",
+					"description": "",
+					"collectionId": "79896b5e-53f3-a41f-7baf-4d9854cc6cff",
+					"responses": []
+				},
+				{
+					"id": "bc19ae04-bdcb-e89b-0e6e-99aac70d48c2",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/products",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "POST",
+					"data": [
+						{
+							"key": "name",
+							"value": "MySQL",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "description",
+							"value": "MySQL is an open source relational database management system",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1545033839353,
+					"name": "Product Create",
+					"description": "",
+					"collectionId": "79896b5e-53f3-a41f-7baf-4d9854cc6cff",
+					"responses": []
+				}
+			]
+		},
+		{
+			"id": "8cf1ffea-98b8-6825-c966-ba4106a3bf74",
+			"name": "Availability Zone",
+			"description": "",
+			"order": [
+				"36346293-eede-548a-bd56-1113a149f333",
+				"574ee20e-f5a7-5573-6f4b-6e1280ebc467",
+				"c328f6c5-f734-85a8-8c2f-de0e0ac477b5",
+				"cc365ac4-6c31-1d7d-f9fa-a9b7f7b7e5c1"
+			],
+			"folders": [],
+			"folders_order": [],
+			"timestamp": 1546587854094,
+			"synced": false,
+			"remote_id": 0,
+			"owner": "5990721",
+			"sharedWithTeam": false,
+			"subscribed": false,
+			"remoteLink": "",
+			"remoteLinkUpdatedAt": null,
+			"public": false,
+			"createdAt": 1546587854094,
+			"updatedAt": 1546604174203,
+			"write": true,
+			"published": false,
+			"favorite": false,
+			"permissions": {},
+			"syncedPermissions": {},
+			"requests": [
+				{
+					"id": "36346293-eede-548a-bd56-1113a149f333",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/availability-zones",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "POST",
+					"data": [
+						{
+							"key": "region_id",
+							"value": "5",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "code",
+							"value": "eu-west-1b",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "name",
+							"value": "EU (Paris) - Magny-les-Hameaux",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1546604261452,
+					"name": "Availability Zone Create",
+					"description": "",
+					"collectionId": "8cf1ffea-98b8-6825-c966-ba4106a3bf74",
+					"responses": []
+				},
+				{
+					"id": "574ee20e-f5a7-5573-6f4b-6e1280ebc467",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/availability-zones/1",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1546604263628,
+					"name": "Availability Zone Show",
+					"description": "",
+					"collectionId": "8cf1ffea-98b8-6825-c966-ba4106a3bf74",
+					"responses": []
+				},
+				{
+					"id": "c328f6c5-f734-85a8-8c2f-de0e0ac477b5",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/availability-zones/1?region_id=1&name=EU (Paris) - Pantin&code=eu-west-1a",
+					"queryParams": [
+						{
+							"key": "region_id",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "name",
+							"value": "EU (Paris) - Pantin",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "code",
+							"value": "eu-west-1a",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "PUT",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1546604485053,
+					"name": "Availability Zone Update",
+					"description": "",
+					"collectionId": "8cf1ffea-98b8-6825-c966-ba4106a3bf74",
+					"responses": []
+				},
+				{
+					"id": "cc365ac4-6c31-1d7d-f9fa-a9b7f7b7e5c1",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/availability-zones",
+					"queryParams": [],
+					"preRequestScript": null,
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "GET",
+					"data": null,
+					"dataMode": "params",
+					"version": 2,
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1546604255852,
+					"name": "Availability Zone All",
+					"description": "",
+					"collectionId": "8cf1ffea-98b8-6825-c966-ba4106a3bf74",
+					"responses": []
+				}
+			]
+		},
+		{
+			"id": "937e951d-3407-c842-f396-aa6a4a29a49f",
+			"name": "Product Version",
+			"description": "",
+			"order": [
+				"8bfd7771-8891-2246-65d3-eeabfe86d350",
+				"6788e796-4bbe-cdc2-5259-e1af8f3c054b",
+				"bb2be822-6398-815f-23f7-497147b7c86e",
+				"cae4b793-a425-650f-90c8-5c542db5a3a6"
+			],
+			"folders": [],
+			"folders_order": [],
+			"timestamp": 1544790535556,
+			"synced": false,
+			"remote_id": 0,
+			"owner": "5990721",
+			"sharedWithTeam": false,
+			"subscribed": false,
+			"remoteLink": "",
+			"remoteLinkUpdatedAt": null,
+			"public": false,
+			"createdAt": 1544790535556,
+			"updatedAt": 1546604174099,
+			"write": true,
+			"published": false,
+			"favorite": false,
+			"permissions": {},
+			"syncedPermissions": {},
+			"requests": [
+				{
+					"id": "6788e796-4bbe-cdc2-5259-e1af8f3c054b",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/product-versions",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "POST",
+					"data": [
+						{
+							"key": "product_id",
+							"value": "1",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "value",
+							"value": "10.1",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1545050425656,
+					"name": "Product Version Create",
+					"description": "",
+					"collectionId": "937e951d-3407-c842-f396-aa6a4a29a49f",
+					"responses": []
+				},
+				{
+					"id": "8bfd7771-8891-2246-65d3-eeabfe86d350",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/product-versions",
+					"queryParams": [],
+					"pathVariables": {},
+					"pathVariableData": [],
+					"preRequestScript": null,
+					"method": "GET",
+					"collectionId": "937e951d-3407-c842-f396-aa6a4a29a49f",
+					"data": null,
+					"dataMode": "params",
+					"name": "Product Version All",
+					"description": "",
+					"descriptionFormat": "html",
+					"time": 1544790541948,
+					"version": 2,
+					"responses": [],
+					"tests": null,
+					"currentHelper": "normal",
+					"helperAttributes": {}
+				},
+				{
+					"id": "bb2be822-6398-815f-23f7-497147b7c86e",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/product-versions/1?value=10.3&product_id=1",
+					"queryParams": [
+						{
+							"key": "value",
+							"value": "10.3",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "product_id",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "PUT",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1545051043258,
+					"name": "Product Version Update",
+					"description": "",
+					"collectionId": "937e951d-3407-c842-f396-aa6a4a29a49f",
+					"responses": []
+				},
+				{
+					"id": "cae4b793-a425-650f-90c8-5c542db5a3a6",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/product-versions/1",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1545127569304,
+					"name": "Product Version Show",
+					"description": "",
+					"collectionId": "937e951d-3407-c842-f396-aa6a4a29a49f",
+					"responses": []
+				}
+			]
+		},
+		{
+			"id": "9f1cb96b-e0b5-a266-d91e-5736ae06fcc7",
+			"name": "Region",
+			"description": "",
+			"order": [
+				"d07648fc-6274-61ba-c292-e8ea3beae82c",
+				"c76473ec-549e-ea7c-08a4-ac31e741554c",
+				"6c01ae2a-7b39-c9aa-6b61-7889333860a6",
+				"2cafe4cb-c451-a12b-b0f7-916bf4dd0493"
+			],
+			"folders": [],
+			"folders_order": [],
+			"timestamp": 1546587823875,
+			"synced": false,
+			"remote_id": 0,
+			"owner": "5990721",
+			"sharedWithTeam": false,
+			"subscribed": false,
+			"remoteLink": "",
+			"remoteLinkUpdatedAt": null,
+			"public": false,
+			"createdAt": 1546587823875,
+			"updatedAt": 1546598721247,
+			"write": true,
+			"published": false,
+			"favorite": false,
+			"permissions": {},
+			"syncedPermissions": {},
+			"requests": [
+				{
+					"id": "2cafe4cb-c451-a12b-b0f7-916bf4dd0493",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/regions",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "GET",
+					"data": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1546587914511,
+					"name": "Region All",
+					"description": "",
+					"collectionId": "9f1cb96b-e0b5-a266-d91e-5736ae06fcc7",
+					"responses": []
+				},
+				{
+					"id": "6c01ae2a-7b39-c9aa-6b61-7889333860a6",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/regions/1",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1546598742267,
+					"name": "Region Show",
+					"description": "",
+					"collectionId": "9f1cb96b-e0b5-a266-d91e-5736ae06fcc7",
+					"responses": []
+				},
+				{
+					"id": "c76473ec-549e-ea7c-08a4-ac31e741554c",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/regions/2/?name=Asia Pacific  (Pune)&endpoint=ec2.ap-south-1.dsone.3ds.com&region=ap-south-1",
+					"queryParams": [
+						{
+							"key": "name",
+							"value": "Asia Pacific  (Pune)",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "endpoint",
+							"value": "ec2.ap-south-1.dsone.3ds.com",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "region",
+							"value": "ap-south-1",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "PUT",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1546594633222,
+					"name": "Region Update",
+					"description": "",
+					"collectionId": "9f1cb96b-e0b5-a266-d91e-5736ae06fcc7",
+					"responses": []
+				},
+				{
+					"id": "d07648fc-6274-61ba-c292-e8ea3beae82c",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/regions",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "POST",
+					"data": [
+						{
+							"key": "name",
+							"value": "EU (Paris)",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "region",
+							"value": "eu-west-1",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "Endpoint",
+							"value": "ec2.eu-west-1.dsone.3ds.com",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1546589192904,
+					"name": "Region Create",
+					"description": "",
+					"collectionId": "9f1cb96b-e0b5-a266-d91e-5736ae06fcc7",
+					"responses": []
+				}
+			]
+		},
+		{
+			"id": "d6a1a3d6-556e-164c-d532-8811387fb0d5",
+			"name": "Environment",
+			"description": "",
+			"order": [
+				"76e047f9-d781-b562-01d1-215a07675a34",
+				"ae7a68ab-ad58-d400-1031-bcedbdb1e33c",
+				"0e7e050a-f1fe-ee7b-be55-fa2930b9556a",
+				"3926a762-85ad-4d7a-bead-f8fd80225664"
+			],
+			"folders": [],
+			"folders_order": [],
+			"timestamp": 1545126472022,
+			"synced": false,
+			"remote_id": 0,
+			"owner": "5990721",
+			"sharedWithTeam": false,
+			"subscribed": false,
+			"remoteLink": "",
+			"remoteLinkUpdatedAt": null,
+			"public": false,
+			"createdAt": 1545126472022,
+			"updatedAt": 1546598721106,
+			"write": true,
+			"published": false,
+			"favorite": false,
+			"permissions": {},
+			"syncedPermissions": {},
+			"requests": [
+				{
+					"id": "0e7e050a-f1fe-ee7b-be55-fa2930b9556a",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/environments/1?name=DEV&description=DEVELOPMENT Environment",
+					"queryParams": [
+						{
+							"key": "name",
+							"value": "DEV",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "description",
+							"value": "DEVELOPMENT Environment",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "PUT",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1545127186678,
+					"name": "Environment Update",
+					"description": "",
+					"collectionId": "d6a1a3d6-556e-164c-d532-8811387fb0d5",
+					"responses": []
+				},
+				{
+					"id": "3926a762-85ad-4d7a-bead-f8fd80225664",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/environments/1",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "GET",
+					"data": [],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1545127354902,
+					"name": "Environment Show",
+					"description": "",
+					"collectionId": "d6a1a3d6-556e-164c-d532-8811387fb0d5",
+					"responses": []
+				},
+				{
+					"id": "76e047f9-d781-b562-01d1-215a07675a34",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/environments",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "GET",
+					"data": [
+						{
+							"key": "code",
+							"value": "xWnkliVQJURqB2x1",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "grant_type",
+							"value": "authorization_code",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "redirect_uri",
+							"value": "https://www.getpostman.com/oauth2/callback",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_id",
+							"value": "abc123",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "client_secret",
+							"value": "ssh-secret",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1545126528878,
+					"name": "Environment All",
+					"description": "",
+					"collectionId": "d6a1a3d6-556e-164c-d532-8811387fb0d5",
+					"responses": []
+				},
+				{
+					"id": "ae7a68ab-ad58-d400-1031-bcedbdb1e33c",
+					"headers": "Accept: application/json\nAuthorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs\n",
+					"headerData": [
+						{
+							"key": "Accept",
+							"value": "application/json",
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImp0aSI6ImVmMjcwNmVhYjMyNWNjYjg3MjBiNjQxNGRhZTJjM2Y5NDZiZWRiNTczOGI4ZTU2NTY1M2EzZTA4MGI2ZDk1MWFmMTk2MjBhMDRlMTIxZmQ1In0.eyJhdWQiOiIyIiwianRpIjoiZWYyNzA2ZWFiMzI1Y2NiODcyMGI2NDE0ZGFlMmMzZjk0NmJlZGI1NzM4YjhlNTY1NjUzYTNlMDgwYjZkOTUxYWYxOTYyMGEwNGUxMjFmZDUiLCJpYXQiOjE1NDQxNzQ3MDksIm5iZiI6MTU0NDE3NDcwOSwiZXhwIjoxNTc1NzEwNzA5LCJzdWIiOiI0Iiwic2NvcGVzIjpbXX0.YNUE9pOD6t2fiuM8tvMlrfhQgSZaKW7Djree4khccO3ZJgvgo9-5nF1HWibiAEVUwtkflsSGZHeq5jUpubm3abbYmaNjijcd4rVOqCAi0dwfTT4g_x_sFc17R9gTcC4D7ag1LWqObBemxQv0xKExtpDU4l5Hjv17a2RwFUiyRlUTaozu7aTi5oudpiBMTLAD0P3fleOz7xUlcoQ74r8TqqX-jQHNrRftYS7e-BQsTm-RPq7H024UOMI3yKcIk2NykWSe2zIeWECE5twRFAr_JS7eMxzD82ZMDII_z13qbUVbstmvTRoq0IbInPpfOrmXWDmuy_j2FGBmu5-cAF4Fw2mYHR4D0CYOLl8xjRwDo74xvt0T9xc_xS92TMf7kHhnMOtwkMee5E_y0nk7GIocPtJjlYQ_CLMXcLA9Nwhw4OUXAiDGCcLgHtlPS-844DdYI6kQMGO9FHqvLoWoYhZkz5E-KojRwp1vgSXzUgwfZv90tIxawLnCLPOlhmiS4kBh_pr5BnnlIuddImK7THWCVyVAUVgb1iPVwojqrcpEUc3mD28iHJ7tpOsB-qxICnjddg8YqEV8aO1nUWxkP5mJusLL3gigQ_kT0syRz2Xtui1Tp7Bin15omOtrCEBjNTyZAnQ5Z6JDnYskfej5rZWxkgrPwVNbW184VbfxW4UyoJs",
+							"description": "",
+							"enabled": true
+						}
+					],
+					"url": "http://192.168.99.100:5080/api/v1/environments",
+					"queryParams": [],
+					"preRequestScript": "",
+					"pathVariables": {},
+					"pathVariableData": [],
+					"method": "POST",
+					"data": [
+						{
+							"key": "name",
+							"value": "MySQL",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "description",
+							"value": "MySQL is an open source relational database management system",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"dataMode": "params",
+					"version": 2,
+					"tests": "tests[\"response code is 401\"] = responseCode.code === 401;\ntests[\"response has WWW-Authenticate header\"] = (postman.getResponseHeader('WWW-Authenticate'));\n\nvar authenticateHeader = postman.getResponseHeader('WWW-Authenticate'),\n    realmStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"realm\")) + 1 ,\n    realmEnd = authenticateHeader.indexOf('\"',realmStart),\n    realm = authenticateHeader.slice(realmStart,realmEnd),\n    nonceStart = authenticateHeader.indexOf('\"',authenticateHeader.indexOf(\"nonce\")) + 1,\n    nonceEnd = authenticateHeader.indexOf('\"',nonceStart),\n    nonce = authenticateHeader.slice(nonceStart,nonceEnd);\n    \npostman.setGlobalVariable('echo_digest_realm', realm);\npostman.setGlobalVariable('echo_digest_nonce', nonce);",
+					"currentHelper": "normal",
+					"helperAttributes": {},
+					"time": 1545126558873,
+					"name": "Environment Create",
+					"description": "",
+					"collectionId": "d6a1a3d6-556e-164c-d532-8811387fb0d5",
+					"responses": []
+				}
+			]
+		}
+	],
+	"environments": [],
+	"headerPresets": [],
+	"globals": []
+}
